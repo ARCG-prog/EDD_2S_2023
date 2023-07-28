@@ -1,0 +1,14 @@
+Python
+
+a = 1
+b = 'j'
+c: bool = True
+d = False
+e = 'Hola Mundo'
+
+C
+char cadena [50] 
+strcpy(cadena, "Hola Mundo")
+
+C++
+std::string cadena = "Hola Mundo"
