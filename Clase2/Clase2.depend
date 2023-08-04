@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1691173308 source:e:\temporal\edd 2s 2023\ejemplosclase\clase2\include\lista.cpp
+	"Lista.h"
+
+1691173371 e:\temporal\edd 2s 2023\ejemplosclase\clase2\include\lista.h
+	"NodoLista.h"
+	<string>
+	<iostream>
+
+1691171917 source:e:\temporal\edd 2s 2023\ejemplosclase\clase2\include\nodolista.cpp
+	"NodoLista.h"
+
+1691171603 e:\temporal\edd 2s 2023\ejemplosclase\clase2\include\nodolista.h
+	<string>
+
+1691172888 source:e:\temporal\edd 2s 2023\ejemplosclase\clase2\main.cpp
+	<iostream>
+	"Lista.h"
+
+1691173150 source:e:\temporal\edd 2s 2023\ejemplosclase\clase2\include\empleado.cpp
+	"Empleado.h"
+
+1691173150 e:\temporal\edd 2s 2023\ejemplosclase\clase2\include\empleado.h
+
