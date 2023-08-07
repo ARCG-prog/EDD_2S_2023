@@ -1,0 +1,25 @@
+digraph lista{
+ rankdir=LR;
+ node[shape = record]; 
+ nodonull1[label="null"];
+ nodonull2[label="null"];
+nodo0[label="BDEV-001"]; 
+nodo1[label="BDEV-002"]; 
+nodo2[label="BDEV-003"]; 
+nodo3[label="BDEV-004"]; 
+nodo4[label="BDEV-005"]; 
+nodo5[label="BDEV-006"]; 
+nodonull1 -> nodo0 [dir=back];
+nodo0 -> nodo1
+nodo1 -> nodo0
+nodo1 -> nodo2
+nodo2 -> nodo1
+nodo2 -> nodo3
+nodo3 -> nodo2
+nodo3 -> nodo4
+nodo4 -> nodo3
+nodo4 -> nodo5
+nodo5 -> nodo4
+
+nodo5 -> nodonull2 
+}

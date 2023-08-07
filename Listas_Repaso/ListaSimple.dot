@@ -1,0 +1,33 @@
+digraph migrafica{
+ rankdir=UD; 
+ node[shape=box]{rank=min;
+nodo0[label="202000001", shape=box, rankdir=LR, group=0]; 
+nodo1[label="202000002", shape=box, rankdir=LR, group=1]; 
+nodo2[label="202000003", shape=box, rankdir=LR, group=2]; 
+}
+{rank=same;
+nodo0[label="202000001", shape=box, rankdir=LR, group=0]; 
+nodo1[label="202000002", shape=box, rankdir=LR, group=1]; 
+nodo2[label="202000003", shape=box, rankdir=LR, group=2]; 
+}
+{rank=same;
+nodoL00[label="EDD", group=0]; 
+}
+{rank=same;
+nodoL01[label="Archivos", group=0]; 
+}
+{rank=same;
+nodoL20[label="EDD", group=2]; 
+}
+{rank=same;
+nodoL21[label="Orga", group=2]; 
+}
+{rank=same;
+nodoL22[label="Compi 1", group=2]; 
+}
+nodo0 -> nodo1
+nodo1 -> nodo2
+
+nodo0 -> nodoL00 -> nodoL01
+nodo2 -> nodoL20 -> nodoL21 -> nodoL22
+ }

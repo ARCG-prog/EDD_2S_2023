@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1691286765 source:e:\temporal\edd 2s 2023\ejemplosclase\listas\include\clasesalumno.cpp
+	"ClasesAlumno.h"
+
+1691286755 e:\temporal\edd 2s 2023\ejemplosclase\listas\include\clasesalumno.h
+	<string>
+
+1691286355 source:e:\temporal\edd 2s 2023\ejemplosclase\listas\include\nodolistasimple.cpp
+	"NodoListaSimple.h"
+
+1691286346 e:\temporal\edd 2s 2023\ejemplosclase\listas\include\nodolistasimple.h
+	<string>
+	"ClasesAlumno.h"
+
+1691430065 source:e:\temporal\edd 2s 2023\ejemplosclase\listas\main.cpp
+	<iostream>
+	"ListaSimple.h"
+	"ListaDobleEnlazada.h"
+
+1691425878 e:\temporal\edd 2s 2023\ejemplosclase\listas\include\listasimple.h
+	"NodoListaSimple.h"
+	"ClasesAlumno.h"
+	<string>
+	<iostream>
+	<fstream>
+	<cstdlib>
+
+1691429347 source:e:\temporal\edd 2s 2023\ejemplosclase\listas\include\listasimple.cpp
+	"ListaSimple.h"
+
+1691430178 e:\temporal\edd 2s 2023\ejemplosclase\listas\include\listadobleenlazada.h
+	"NodoListaDoble.h"
+	<string>
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1691430105 e:\temporal\edd 2s 2023\ejemplosclase\listas\include\nodolistadoble.h
+	<string>
+
+1691429562 source:e:\temporal\edd 2s 2023\ejemplosclase\listas\include\nodolistadoble.cpp
+	"NodoListaDoble.h"
+
