@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1692379191 source:e:\temporal\segundo semestre 2023\edd 2s 2023\ejemplosclase\clase3\include\nodomatriz.cpp
+	"NodoMatriz.h"
+
+1692379191 e:\temporal\segundo semestre 2023\edd 2s 2023\ejemplosclase\clase3\include\nodomatriz.h
+	<string>
+
+1692395328 source:e:\temporal\segundo semestre 2023\edd 2s 2023\ejemplosclase\clase3\main.cpp
+	<iostream>
+	"Matriz.h"
+	<string>
+
+1692395179 source:e:\temporal\segundo semestre 2023\edd 2s 2023\ejemplosclase\clase3\include\matriz.cpp
+	"Matriz.h"
+
+1692382320 e:\temporal\segundo semestre 2023\edd 2s 2023\ejemplosclase\clase3\include\matriz.h
+	<fstream>
+	<iostream>
+	<string>
+	<string.h>
+	"NodoMatriz.h"
+
