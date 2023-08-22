@@ -49,8 +49,11 @@ int main()
 
     matrizN->insertar_empleado(lista);
     matrizN->asignarProyecto("Cristian Suy","PY-101");
+    matrizN->asignarProyecto("Alberto Mejia","PY-100");
+    matrizN->asignarProyecto("Alberto Mejia","PY-103");
+    matrizN->asignarProyecto("Hector Gomez","PY-103");
 
-    //matrizN->Graficar();
+    matrizN->Graficar();
 
 
 

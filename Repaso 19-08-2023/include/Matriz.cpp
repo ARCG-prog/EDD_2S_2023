@@ -213,7 +213,18 @@ void Matriz::Graficar()
             aux1 = aux2;
             archivo << "{rank=same; \n";
             while( aux1 != 0 ) {
-                archivo << "nodo" << (aux1->PosX+1) << (aux1->PosY+1) << "[label=\"" << aux1->Proyecto_c->Codigo << "\" ,group=" << (aux1->PosX+1) << "]; \n";
+                if(aux1->Proyecto_c)
+                {
+                    if(aux1->Encargado_c)
+                    {
+                        archivo << "nodo" << aux1 << "[label=\"" << aux1->Proyecto_c->Codigo << "\\n" << aux1->Encargado_c->Codigo << "\" ,group=" << (aux1->PosX+1) << "]; \n";
+                    }else{
+                        archivo << "nodo" << aux1 << "[label=\"" << aux1->Proyecto_c->Codigo << "\" ,group=" << (aux1->PosX+1) << "]; \n";
+                    }
+                }else if(aux1->Encargado_c)
+                {
+                    archivo << "nodo" << aux1 << "[label=\"" << aux1->Encargado_c->Nombre << "\" ,group=" << (aux1->PosX+1) << "]; \n";
+                }
                 aux1 = aux1->Siguiente;
             }
             archivo << "} \n";
@@ -224,7 +235,7 @@ void Matriz::Graficar()
         while( aux2 != 0 ) {
             aux1 = aux2;
             while( aux1->Siguiente != 0 ) {
-                archivo << "nodo" << (aux1->PosX+1) << (aux1->PosY+1) << " -> " << "nodo" << (aux1->Siguiente->PosX+1) << (aux1->Siguiente->PosY+1) << " [dir=both];\n";
+                archivo << "nodo" << aux1 << " -> " << "nodo" << aux1->Siguiente << " [dir=both];\n";
                 aux1 = aux1->Siguiente;
             }
             aux2 = aux2->Abajo;
@@ -233,7 +244,7 @@ void Matriz::Graficar()
         while( aux2 != 0 ) {
             aux1 = aux2;
             while( aux1->Abajo != 0 ) {
-                archivo << "nodo" << (aux1->PosX+1) << (aux1->PosY+1) << " -> " << "nodo" << (aux1->Abajo->PosX+1) << (aux1->Abajo->PosY+1) << " [dir=both];\n";
+                archivo << "nodo" << aux1 << " -> " << "nodo" << aux1->Abajo << " [dir=both];\n";
                 aux1 = aux1->Abajo;
             }
             aux2 = aux2->Siguiente;

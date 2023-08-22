@@ -16,6 +16,9 @@ Lista::~Lista()
 void Lista::Insertar(std::string nombre, std::string password)
 {
     NodoLista *nuevo = new NodoLista(nombre, password);
+    int numero_empleado = 1 + this->Tamanio;
+    std::string codigo = (numero_empleado < 100 ? (numero_empleado < 10 ? "SC-00"+std::to_string(numero_empleado) : "SC-0"+std::to_string(numero_empleado)): "SC-"+std::to_string(numero_empleado));
+    nuevo->EmpleadoSistema->Codigo = codigo;
     if(this->Primero == 0)
     {
         /*------------------*/
@@ -47,7 +50,7 @@ void Lista::VerLista()
     int contador = 0;
     while(this->Tamanio > contador)
     {
-        cout << aux->EmpleadoSistema->Nombre << endl;
+        cout << aux->EmpleadoSistema->Codigo << endl;
         aux = aux->Siguiente;
         contador++;
     }

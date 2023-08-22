@@ -1,0 +1,43 @@
+digraph MatrizCapa{ 
+ node[shape=box] 
+ rankdir=UD;
+{rank=same; 
+nodo0x13a0f80[label="RAIZ\n" ,group=0]; 
+nodo0x13a11c8[label="PY-100" ,group=1]; 
+nodo0x13a11f8[label="PY-101" ,group=2]; 
+nodo0x13a1228[label="PY-102" ,group=3]; 
+nodo0x13a72b0[label="PY-103" ,group=4]; 
+} 
+{rank=same; 
+nodo0x13a72e0[label="Cristian Suy" ,group=0]; 
+nodo0x13a73a0[label="PY-101\nSC-001" ,group=2]; 
+} 
+{rank=same; 
+nodo0x13a7310[label="Alberto Mejia" ,group=0]; 
+nodo0x13a73d0[label="PY-100\nSC-002" ,group=1]; 
+nodo0x13a7400[label="PY-103\nSC-002" ,group=4]; 
+} 
+{rank=same; 
+nodo0x13a7340[label="Paula Fuentes" ,group=0]; 
+} 
+{rank=same; 
+nodo0x13a7370[label="Hector Gomez" ,group=0]; 
+nodo0x13a7430[label="PY-103\nSC-004" ,group=4]; 
+} 
+nodo0x13a0f80 -> nodo0x13a11c8 [dir=both];
+nodo0x13a11c8 -> nodo0x13a11f8 [dir=both];
+nodo0x13a11f8 -> nodo0x13a1228 [dir=both];
+nodo0x13a1228 -> nodo0x13a72b0 [dir=both];
+nodo0x13a72e0 -> nodo0x13a73a0 [dir=both];
+nodo0x13a7310 -> nodo0x13a73d0 [dir=both];
+nodo0x13a73d0 -> nodo0x13a7400 [dir=both];
+nodo0x13a7370 -> nodo0x13a7430 [dir=both];
+nodo0x13a0f80 -> nodo0x13a72e0 [dir=both];
+nodo0x13a72e0 -> nodo0x13a7310 [dir=both];
+nodo0x13a7310 -> nodo0x13a7340 [dir=both];
+nodo0x13a7340 -> nodo0x13a7370 [dir=both];
+nodo0x13a11c8 -> nodo0x13a73d0 [dir=both];
+nodo0x13a11f8 -> nodo0x13a73a0 [dir=both];
+nodo0x13a72b0 -> nodo0x13a7400 [dir=both];
+nodo0x13a7400 -> nodo0x13a7430 [dir=both];
+} 
