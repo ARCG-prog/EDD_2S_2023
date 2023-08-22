@@ -1,16 +1,16 @@
 #include "NodoMatriz.h"
 
-NodoMatriz::NodoMatriz(Proyecto *proyecto, Empleado *encargado, int posx, int posy)
+NodoMatriz::NodoMatriz(std::string coordenada, int x, int y)
 {
     //ctor
-    this->Abajo = 0;
-    this->Anterior = 0;
-    this->Arriba = 0;
     this->Siguiente = 0;
-    this->PosY = posy;
-    this->PosX = posx;
-    this->Encargado_c = encargado;
-    this->Proyecto_c = proyecto;
+    this->Anterior = 0;
+    this->Abajo = 0;
+    this->Arriba = 0;
+    this->PosX = x;
+    this->PosY = y;
+    this->Coordenada = coordenada;
+
 }
 
 NodoMatriz::~NodoMatriz()
