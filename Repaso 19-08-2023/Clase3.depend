@@ -76,3 +76,95 @@
 1692493830 source:e:\temporal\segundo semestre 2023\edd 2s 2023\pruebaejemplo\clase3\include\colaprioridad.cpp
 	"ColaPrioridad.h"
 
+1692345681 source:e:\temporal\segundo semestre 2023\edd 2s 2023\edd_2s_2023\repaso 19-08-2023\include\empleado.cpp
+	"Empleado.h"
+
+1692345658 e:\temporal\segundo semestre 2023\edd 2s 2023\edd_2s_2023\repaso 19-08-2023\include\empleado.h
+	<string>
+
+1692727006 source:e:\temporal\segundo semestre 2023\edd 2s 2023\edd_2s_2023\repaso 19-08-2023\include\lista.cpp
+	"Lista.h"
+
+1692491005 e:\temporal\segundo semestre 2023\edd 2s 2023\edd_2s_2023\repaso 19-08-2023\include\lista.h
+	"NodoLista.h"
+	<string>
+	<iostream>
+	<fstream>
+	<string.h>
+	<cstring>
+	<sstream>
+	<stdlib.h>
+
+1692345437 e:\temporal\segundo semestre 2023\edd 2s 2023\edd_2s_2023\repaso 19-08-2023\include\nodolista.h
+	<string>
+	"Empleado.h"
+
+1692987609 source:e:\temporal\segundo semestre 2023\edd 2s 2023\edd_2s_2023\repaso 19-08-2023\include\matriz.cpp
+	"Matriz.h"
+
+1692987598 e:\temporal\segundo semestre 2023\edd 2s 2023\edd_2s_2023\repaso 19-08-2023\include\matriz.h
+	<fstream>
+	<iostream>
+	<string>
+	<string.h>
+	"NodoMatriz.h"
+	"NodoLista.h"
+	"ColaPrioridad.h"
+	"Proyecto.h"
+	"Empleado.h"
+	"Lista.h"
+
+1692987000 e:\temporal\segundo semestre 2023\edd 2s 2023\edd_2s_2023\repaso 19-08-2023\include\nodomatriz.h
+	<string>
+	"Proyecto.h"
+	"Empleado.h"
+	"ListaDoble.h"
+
+1692485277 e:\temporal\segundo semestre 2023\edd 2s 2023\edd_2s_2023\repaso 19-08-2023\include\proyecto.h
+	<string>
+
+1692985091 e:\temporal\segundo semestre 2023\edd 2s 2023\edd_2s_2023\repaso 19-08-2023\include\colaprioridad.h
+	"NodoCola.h"
+	"Proyecto.h"
+	<string>
+	<iostream>
+
+1692481025 e:\temporal\segundo semestre 2023\edd 2s 2023\edd_2s_2023\repaso 19-08-2023\include\nodocola.h
+	"Proyecto.h"
+
+1692481025 source:e:\temporal\segundo semestre 2023\edd 2s 2023\edd_2s_2023\repaso 19-08-2023\include\nodocola.cpp
+	"NodoCola.h"
+
+1692345645 source:e:\temporal\segundo semestre 2023\edd 2s 2023\edd_2s_2023\repaso 19-08-2023\include\nodolista.cpp
+	"NodoLista.h"
+
+1692987037 source:e:\temporal\segundo semestre 2023\edd 2s 2023\edd_2s_2023\repaso 19-08-2023\include\nodomatriz.cpp
+	"NodoMatriz.h"
+
+1692485291 source:e:\temporal\segundo semestre 2023\edd 2s 2023\edd_2s_2023\repaso 19-08-2023\include\proyecto.cpp
+	"Proyecto.h"
+
+1692987598 source:e:\temporal\segundo semestre 2023\edd 2s 2023\edd_2s_2023\repaso 19-08-2023\main.cpp
+	<iostream>
+	"Matriz.h"
+	"Lista.h"
+	"ColaPrioridad.h"
+	"ListaDoble.h"
+	<string>
+
+1692985215 source:e:\temporal\segundo semestre 2023\edd 2s 2023\edd_2s_2023\repaso 19-08-2023\include\colaprioridad.cpp
+	"ColaPrioridad.h"
+
+1692986763 source:e:\temporal\segundo semestre 2023\edd 2s 2023\edd_2s_2023\repaso 19-08-2023\include\listadoble.cpp
+	"ListaDoble.h"
+
+1692986763 e:\temporal\segundo semestre 2023\edd 2s 2023\edd_2s_2023\repaso 19-08-2023\include\listadoble.h
+	"NodoListaDoble.h"
+	<string>
+
+1692985805 source:e:\temporal\segundo semestre 2023\edd 2s 2023\edd_2s_2023\repaso 19-08-2023\include\nodolistadoble.cpp
+	"NodoListaDoble.h"
+
+1692985783 e:\temporal\segundo semestre 2023\edd 2s 2023\edd_2s_2023\repaso 19-08-2023\include\nodolistadoble.h
+	<string>
+

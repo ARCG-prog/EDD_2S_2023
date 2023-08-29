@@ -50,7 +50,7 @@ void ColaPrioridad::VerProyectos()
     int contador = 0;
     while(aux)
     {
-        cout << aux->Proyecto_C->Codigo << endl;
+        cout << aux->Proyecto_C->Nombre << endl;
         aux = aux->Siguiente;
         contador++;
     }
@@ -61,5 +61,34 @@ void ColaPrioridad::Descolar()
     if(this->Primero)
     {
         this->Primero = this->Primero->Siguiente;
+    }
+}
+
+void ColaPrioridad::Ordenar()
+{
+    if(this->Primero)
+    {
+        NodoCola *piv = this->Primero;
+        NodoCola *actual;
+        int contador = 0;
+        while(contador != this->Tamanio)
+        {
+            actual = piv->Siguiente;
+            while(actual)
+            {
+                if(piv->Prioridad.compare(actual->Prioridad) == 1)
+                {
+                    Proyecto *tempProyecto = piv->Proyecto_C;
+                    std::string tempPrioridad = piv->Prioridad;
+                    piv->Proyecto_C = actual->Proyecto_C;
+                    piv->Prioridad = actual->Prioridad;
+                    actual->Proyecto_C = tempProyecto;
+                    actual->Prioridad = tempPrioridad;
+                }
+                actual = actual->Siguiente;
+            }
+            piv = piv->Siguiente;
+            contador++;
+        }
     }
 }

@@ -2,42 +2,42 @@ digraph MatrizCapa{
  node[shape=box] 
  rankdir=UD;
 {rank=same; 
-nodo0x1370f80[label="RAIZ\n" ,group=0]; 
-nodo0x13711c8[label="PY-100" ,group=1]; 
-nodo0x13711f8[label="PY-101" ,group=2]; 
-nodo0x1371228[label="PY-102" ,group=3]; 
-nodo0x13772b0[label="PY-103" ,group=4]; 
+nodo0x13a0f10[label="RAIZ\n" ,group=0]; 
+nodo0x13a12c0[label="PY-101" ,group=1]; 
+nodo0x13a1308[label="PY-103" ,group=2]; 
+nodo0x13a72e0[label="PY-102" ,group=3]; 
+nodo0x13a7328[label="PY-100" ,group=4]; 
 } 
 {rank=same; 
-nodo0x13772e0[label="Cristian Suy" ,group=0]; 
-nodo0x13773a0[label="PY-101\nSC-001" ,group=2]; 
+nodo0x13a7370[label="Cristian Suy" ,group=0]; 
+nodo0x13a04f8[label="PY-101\nSC-001" ,group=1]; 
 } 
 {rank=same; 
-nodo0x1377310[label="Alberto Mejia" ,group=0]; 
-nodo0x13773d0[label="PY-100\nSC-002" ,group=1]; 
-nodo0x1377400[label="PY-103\nSC-002" ,group=4]; 
+nodo0x13a73b8[label="Alberto Mejia" ,group=0]; 
+nodo0x13a0558[label="PY-103\nSC-002" ,group=2]; 
+nodo0x13a0528[label="PY-100\nSC-002" ,group=4]; 
 } 
 {rank=same; 
-nodo0x1377340[label="Paula Fuentes" ,group=0]; 
+nodo0x13a7400[label="Paula Fuentes" ,group=0]; 
 } 
 {rank=same; 
-nodo0x1377370[label="Hector Gomez" ,group=0]; 
-nodo0x1377430[label="PY-103\nSC-004" ,group=4]; 
+nodo0x13a04b0[label="Hector Gomez" ,group=0]; 
+nodo0x13a0588[label="PY-103\nSC-004" ,group=2]; 
 } 
-nodo0x1370f80 -> nodo0x13711c8 [dir=both];
-nodo0x13711c8 -> nodo0x13711f8 [dir=both];
-nodo0x13711f8 -> nodo0x1371228 [dir=both];
-nodo0x1371228 -> nodo0x13772b0 [dir=both];
-nodo0x13772e0 -> nodo0x13773a0 [dir=both];
-nodo0x1377310 -> nodo0x13773d0 [dir=both];
-nodo0x13773d0 -> nodo0x1377400 [dir=both];
-nodo0x1377370 -> nodo0x1377430 [dir=both];
-nodo0x1370f80 -> nodo0x13772e0 [dir=both];
-nodo0x13772e0 -> nodo0x1377310 [dir=both];
-nodo0x1377310 -> nodo0x1377340 [dir=both];
-nodo0x1377340 -> nodo0x1377370 [dir=both];
-nodo0x13711c8 -> nodo0x13773d0 [dir=both];
-nodo0x13711f8 -> nodo0x13773a0 [dir=both];
-nodo0x13772b0 -> nodo0x1377400 [dir=both];
-nodo0x1377400 -> nodo0x1377430 [dir=both];
+nodo0x13a0f10 -> nodo0x13a12c0 [dir=both];
+nodo0x13a12c0 -> nodo0x13a1308 [dir=both];
+nodo0x13a1308 -> nodo0x13a72e0 [dir=both];
+nodo0x13a72e0 -> nodo0x13a7328 [dir=both];
+nodo0x13a7370 -> nodo0x13a04f8 [dir=both];
+nodo0x13a73b8 -> nodo0x13a0558 [dir=both];
+nodo0x13a0558 -> nodo0x13a0528 [dir=both];
+nodo0x13a04b0 -> nodo0x13a0588 [dir=both];
+nodo0x13a0f10 -> nodo0x13a7370 [dir=both];
+nodo0x13a7370 -> nodo0x13a73b8 [dir=both];
+nodo0x13a73b8 -> nodo0x13a7400 [dir=both];
+nodo0x13a7400 -> nodo0x13a04b0 [dir=both];
+nodo0x13a12c0 -> nodo0x13a04f8 [dir=both];
+nodo0x13a1308 -> nodo0x13a0558 [dir=both];
+nodo0x13a0558 -> nodo0x13a0588 [dir=both];
+nodo0x13a7328 -> nodo0x13a0528 [dir=both];
 } 

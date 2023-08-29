@@ -35,6 +35,8 @@ class Matriz
         void asignarProyecto(std::string nombre_empleado, std::string codigo_proyecto);
         NodoMatriz *buscarF_1(std::string nombre);
         NodoMatriz *buscarC_1(std::string codigo);
+        void BuscarProyecto(std::string codigo, std::string nombre_tarea);
+        void BuscarEmpleado(std::string codigo, std::string nombre_tarea, std::string nombre_empleado);
         Matriz();
         virtual ~Matriz();
 

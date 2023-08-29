@@ -14,6 +14,7 @@ class ColaPrioridad
         void Encolar(std::string Nombre, std::string Tipo_de_Prioridad);
         void Descolar();
         void VerProyectos();
+        void Ordenar();
         ColaPrioridad();
         virtual ~ColaPrioridad();
 

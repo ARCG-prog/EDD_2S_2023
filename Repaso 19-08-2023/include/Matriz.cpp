@@ -191,6 +191,26 @@ NodoMatriz* Matriz::buscarC_1(std::string codigo)
     return 0;
 }
 
+void Matriz::BuscarProyecto(std::string codigo, std::string nombre_tarea)
+{
+    NodoMatriz *nodo_Columna =  this->buscarC_1(codigo);
+    nodo_Columna->Tareas->Insertar(codigo, nombre_tarea, "");
+}
+
+void Matriz::BuscarEmpleado(std::string codigo, std::string nombre_tarea, std::string nombre_empleado)
+{
+    NodoMatriz *nodo_Columna =  this->buscarC_1(codigo);
+    NodoMatriz *nodo_Fila = this->buscarF_1(nombre_empleado);
+    if(nodo_Fila != 0)
+    {
+        nodo_Columna->Tareas->Asignar(nodo_Columna->Proyecto_c->Codigo, nombre_tarea, nodo_Fila->Encargado_c->Codigo);
+    }
+    else
+    {
+        cout << "No hay empleado con ese nombre" << endl;
+    }
+}
+
 void Matriz::Graficar()
 {
     ofstream archivo;
