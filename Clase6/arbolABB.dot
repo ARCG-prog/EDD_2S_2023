@@ -1,0 +1,18 @@
+digraph arbol {"50" ;
+x1 [label="",width=.1,style=invis];
+"50" -> "30" ;
+x2 [label="",width=.1,style=invis];
+"30" -> "10" ;
+x3 [label="",width=.1,style=invis];
+"10" -> x3[style=invis]; 
+ "10" -> "20" ;
+{rank=same x3 -> "20" [style=invis]; } 
+ "30" -> x2[style=invis];
+{rank=same "10" -> x2 [style=invis]; } 
+ "50" -> "70" ;
+x2 [label="",width=.1,style=invis];
+"70" -> "60" ;
+ "70" -> "80" ;
+{rank=same"60" -> "80" [style=invis]; } 
+{rank=same"30" -> "70" [style=invis]; } 
+}
