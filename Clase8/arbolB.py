@@ -149,6 +149,6 @@ class ArbolB():
     
 arbol = ArbolB()
 
-for i in range(16):
-    arbol.insertar((i+1))
+for i in range(18):
+    arbol.insertar((18-i-1))
 arbol.graficar()

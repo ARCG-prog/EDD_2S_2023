@@ -15,6 +15,7 @@ class RamaB():
                 nuevo.siguiente = self.primero
                 if self.primero is not None:
                     self.primero.anterior = nuevo
+                    self.primero.izquierda = nuevo.derecha
                 self.primero = nuevo
             else:
                 actual = self.primero
