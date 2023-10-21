@@ -1,0 +1,23 @@
+Para los que tienen el proyecto 
+    -Agregar a lista simple un nuevo estado
+        1. No comenzado
+        2. En proceso
+        3. Terminado
+
+    -Tabla Hash
+        Contraseña... metodo de encriptacion SHA256
+    
+    Grafos....
+    Arbol de Merkle.... 
+
+    -Agregar alguna opcion que sea para cambiar estados
+        -BDEV-100 -> T1-PY-100 hacer consultas de productos
+        -FDEV-100 -> T4-PY-100 mostrar productos en pagina web 
+                    (No puede realizar aun la tarea, no han comenzado T1-PY-100)
+
+Para quienes les fallo el arbol B 
+    la opcion:
+        crear una lista general (leer json y jalar tareas y empleados de ese proyecto)
+        al iniciar sesion generar una lista temporal (guardar tareas de empleado que inicio)
+
+2 de noviembre a media dia 
