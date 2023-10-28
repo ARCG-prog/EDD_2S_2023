@@ -1,0 +1,4 @@
+digraph arbol { node [shape=box]; nodo0[label=<<B>Index:</B> 0 <br /> <B>Timestamp:</B> 27-10-2023::12:32:32 <br /> <B>Data:</B> 03968fe9c3803f813a8a <br /> <B>PreviousHash:</B> 0000 <br /> <B>Hash:</B> 723b1341eadcbd440193>]
+nodo1[label=<<B>Index:</B> 1 <br /> <B>Timestamp:</B> 27-10-2023::12:32:42 <br /> <B>Data:</B> fce5e6275df4ebd9ee0d <br /> <B>PreviousHash:</B> 723b1341eadcbd440193 <br /> <B>Hash:</B> 2f2cc6ebfa3f51d2aaba>]
+nodo2[label=<<B>Index:</B> 2 <br /> <B>Timestamp:</B> 27-10-2023::12:32:53 <br /> <B>Data:</B> fdf9e29bf560907af37c <br /> <B>PreviousHash:</B> 2f2cc6ebfa3f51d2aaba <br /> <B>Hash:</B> be5cb3cb6ccb277925f3>]
+nodo0 -> nodo1 -> nodo2}

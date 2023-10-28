@@ -1,0 +1,27 @@
+digraph arbol { node [shape=box];"fdf9e29bf560907af37c" [dir=back];
+"fdf9e29bf560907af37c" -> "851eb97473a6c10c8fbf" [dir=back];
+"851eb97473a6c10c8fbf" -> "786b845c506618ae9fd7" [dir=back];
+"786b845c506618ae9fd7" -> "27-10-2023::12:32:52 
+ 201700918 
+ 120 
+ PY-102" [dir=back];
+ "851eb97473a6c10c8fbf" -> "6bf5fec26fd32d3b1dee" [dir=back];
+"6bf5fec26fd32d3b1dee" -> "27-10-2023::12:32:52 
+ 201700919 
+ 163 
+ PY-102" [dir=back];
+ {rank=same"786b845c506618ae9fd7" -> "6bf5fec26fd32d3b1dee" [style=invis]; } 
+ "fdf9e29bf560907af37c" -> "b11c847e5935e571154f" [dir=back];
+"b11c847e5935e571154f" -> "d33fe365c7bdd25ddd5b" [dir=back];
+"d33fe365c7bdd25ddd5b" -> "27-10-2023::12:32:52 
+ 201700920 
+ 110 
+ PY-102" [dir=back];
+ "b11c847e5935e571154f" -> "68e55f29fe3cb57cd9ba" [dir=back];
+"68e55f29fe3cb57cd9ba" -> "27-10-2023::12:32:52 
+ -3 
+ 0 
+ -3" [dir=back];
+ {rank=same"d33fe365c7bdd25ddd5b" -> "68e55f29fe3cb57cd9ba" [style=invis]; } 
+ {rank=same"851eb97473a6c10c8fbf" -> "b11c847e5935e571154f" [style=invis]; } 
+}
